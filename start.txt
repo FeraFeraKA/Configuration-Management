@@ -1,0 +1,4 @@
+ls -a
+cd /home/user
+ls
+exit
