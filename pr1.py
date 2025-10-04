@@ -51,6 +51,7 @@ def execute_command(command, args, log_file):
         print(f"[CD] Arguments: {args}")
     else:
         print(f"Unknown command: {command}")
+        print("Exiting the emulator.")
         return False
     return True
 
@@ -100,10 +101,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("Startup configuration:")
-    print(f"  VFS path: {args.vfs}")
-    print(f"  Log file: {args.log}")
+    print(f"VFS path: {args.vfs}")
+    print(f"Log file: {args.log}")
     if args.script:
-        print(f"  Startup script: {args.script}")
+        print(f"Startup script: {args.script}")
 
     if args.script:
         success = run_script(args.script, args.vfs, args.log)

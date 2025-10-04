@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log>
+  <entry time="2025-10-04 09:39:34" command="ls" args="['/home']" />
+  <entry time="2025-10-04 09:40:01" command="cd" args="['/D']" />
+  <entry time="2025-10-04 09:40:03" command="exit" args="[]" />
+  <entry time="2025-10-04 09:43:31" command="ls" args="['/home']" />
+  <entry time="2025-10-04 09:43:31" command="cd" args="[]" />
+  <entry time="2025-10-04 09:43:31" command="dc" args="[]" />
+  <entry time="2025-10-04 09:43:31" command="exit" args="[]" />
+  <entry time="2025-10-04 09:45:29" command="python" args="['pr1.py', '--vfs', 'myvfs', '--log', 'log.xml', '--script', 'error.txt']" />
+  <entry time="2025-10-04 09:45:40" command="python" args="['pr1.py', '--vfs', 'myvfs', '--log', 'log.xml', '--script', 'error.txt']" />
+  <entry time="2025-10-04 09:45:50" command="exit" args="[]" />
+  <entry time="2025-10-04 09:45:52" command="ls" args="['-l']" />
+  <entry time="2025-10-04 09:45:52" command="cd" args="['/etc']" />
+  <entry time="2025-10-04 09:45:52" command="unknown_command" args="[]" />
+  <entry time="2025-10-04 09:45:52" command="ls" args="[]" />
+  <entry time="2025-10-04 09:45:52" command="exit" args="[]" />
+  <entry time="2025-10-04 09:49:23" command="exit" args="[]" />
+  <entry time="2025-10-04 09:49:25" command="exit" args="[]" />
+  <entry time="2025-10-04 09:50:37" command="ls" args="['-a']" />
+  <entry time="2025-10-04 09:50:37" command="cd" args="['/home/user']" />
+  <entry time="2025-10-04 09:50:37" command="ls" args="[]" />
+  <entry time="2025-10-04 09:50:37" command="exit" args="[]" />
+  <entry time="2025-10-04 09:50:51" command="ls" args="['-l']" />
+  <entry time="2025-10-04 09:50:51" command="cd" args="['/etc']" />
+  <entry time="2025-10-04 09:50:51" command="unknown_command" args="[]" />
+  <entry time="2025-10-04 10:01:41" command="ls" args="['/home']" />
+  <entry time="2025-10-04 10:03:09" command="exit" args="[]" />
+  <entry time="2025-10-04 10:03:26" command="ls" args="['-l']" />
+  <entry time="2025-10-04 10:03:26" command="cd" args="['/etc']" />
+  <entry time="2025-10-04 10:03:26" command="unknown_command" args="[]" />
+  <entry time="2025-10-04 10:03:42" command="ls" args="['-a']" />
+  <entry time="2025-10-04 10:03:42" command="cd" args="['/home/user']" />
+  <entry time="2025-10-04 10:03:42" command="ls" args="[]" />
+  <entry time="2025-10-04 10:03:42" command="exit" args="[]" />
+  <entry time="2025-10-04 10:04:09" command="ls" args="['-a']" />
+  <entry time="2025-10-04 10:04:09" command="cd" args="['/home/user']" />
+  <entry time="2025-10-04 10:04:09" command="ls" args="[]" />
+  <entry time="2025-10-04 10:04:09" command="exit" args="[]" />
+  <entry time="2025-10-04 10:04:20" command="ls" args="['-l']" />
+  <entry time="2025-10-04 10:04:20" command="cd" args="['/etc']" />
+  <entry time="2025-10-04 10:04:20" command="unknown_command" args="[]" />
+  <entry time="2025-10-04 10:20:15" command="ls" args="['/home']" />
+  <entry time="2025-10-04 10:20:17" command="dc" args="[]" />
+  <entry time="2025-10-04 10:21:02" command="ls" args="['-l']" />
+  <entry time="2025-10-04 10:21:02" command="cd" args="['/etc']" />
+  <entry time="2025-10-04 10:21:02" command="unknown_command" args="[]" />
+  <entry time="2025-10-04 10:21:14" command="ls" args="['-a']" />
+  <entry time="2025-10-04 10:21:14" command="cd" args="['/home/user']" />
+  <entry time="2025-10-04 10:21:14" command="ls" args="[]" />
+  <entry time="2025-10-04 10:21:14" command="exit" args="[]" />
+</log>
