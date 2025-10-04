@@ -105,4 +105,52 @@ class VirtualFileSystem:
             return "\n".join(lines)
         return lines
 
+    def mv(self, src, dest):
+        node = self._get_current_dir()
+
+        for file in node.get("files", []):
+            if file["name"] == src:
+                if "/" not in dest:
+                    file["name"] = dest
+                    return f"Renamed file {src} -> {dest}"
+
+                parts = dest.strip("/").split("/")
+                target = self.data
+                for folder in parts:
+                    found = None
+                    for f in target.get("folders", []):
+                        if f["name"] == folder:
+                            found = f
+                            break
+                    if not found:
+                        return f"No such folder: {folder}"
+                    target = found
+                node["files"].remove(file)
+                target.setdefault("files", []).append(file)
+                return f"Moved file {src} -> {dest}"
+
+        for folder in node.get("folders", []):
+            if folder["name"] == src:
+                if "/" not in dest:
+                    folder["name"] = dest
+                    return f"Renamed folder {src} -> {dest}"
+
+                parts = dest.strip("/").split("/")
+                target = self.data
+                for f_name in parts:
+                    found = None
+                    for f in target.get("folders", []):
+                        if f["name"] == f_name:
+                            found = f
+                            break
+                    if not found:
+                        return f"No such folder: {f_name}"
+                    target = found
+                node["folders"].remove(folder)
+                target.setdefault("folders", []).append(folder)
+                return f"Moved folder {src} -> {dest}"
+
+        return f"No such file or folder: {src}"
+
+
 

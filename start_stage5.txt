@@ -1,0 +1,10 @@
+ls
+mv root.txt root_renamed.txt
+ls
+mv root_renamed.txt docs/
+cd docs
+ls
+mv readme.txt readme_new.txt
+ls
+mv nofile.txt newfile.txt
+exit

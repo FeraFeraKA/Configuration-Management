@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log>
+  <entry time="2025-10-04 15:40:55" command="ls" args="[]" />
+  <entry time="2025-10-04 15:40:55" command="mv" args="['root.txt', 'root_renamed.txt']" />
+  <entry time="2025-10-04 15:40:55" command="ls" args="[]" />
+  <entry time="2025-10-04 15:40:55" command="mv" args="['root_renamed.txt', 'docs/']" />
+  <entry time="2025-10-04 15:40:55" command="cd" args="['docs']" />
+  <entry time="2025-10-04 15:40:55" command="ls" args="[]" />
+  <entry time="2025-10-04 15:40:55" command="mv" args="['readme.txt', 'readme_new.txt']" />
+  <entry time="2025-10-04 15:40:55" command="ls" args="[]" />
+  <entry time="2025-10-04 15:40:55" command="mv" args="['nofile.txt', 'newfile.txt']" />
+  <entry time="2025-10-04 15:40:55" command="exit" args="[]" />
+</log>

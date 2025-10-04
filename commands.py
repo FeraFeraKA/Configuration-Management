@@ -60,6 +60,12 @@ def execute_command(command, args, log_file):
         else:
             print("No VFS loaded.")
 
+    elif command == "mv":
+        if len(args) < 2:
+            print("Usage: mv <src> <dest>")
+        else:
+            print(vfs_instance.mv(args[0], args[1]))
+
     else:
         print(f"Unknown command: {command}")
         return False
