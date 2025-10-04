@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log>
+  <entry time="2025-10-04 14:07:54" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 14:07:54" command="ls" args="['-a']" />
+  <entry time="2025-10-04 14:07:54" command="cd" args="['/home']" />
+  <entry time="2025-10-04 14:07:54" command="foobar" args="[]" />
+</log>

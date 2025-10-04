@@ -1,0 +1,6 @@
+{
+  "name": "MinimalVFS",
+  "files": [
+    {"name": "hello.txt", "type": "text", "content": "Hello world"}
+  ]
+}

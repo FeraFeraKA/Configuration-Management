@@ -1,0 +1,16 @@
+{
+  "name": "NestedVFS",
+  "folders": [
+    {
+      "name": "level1",
+      "folders": [
+        {
+          "name": "level2",
+          "files": [
+            {"name": "deep.txt", "type": "text", "content": "Deep file"}
+          ]
+        }
+      ]
+    }
+  ]
+}

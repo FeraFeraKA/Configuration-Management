@@ -1,4 +1,5 @@
+vfs-info
 ls -a
-cd /home/user
-ls
+cd /home
+foobar
 exit

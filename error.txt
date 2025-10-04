@@ -1,5 +1,0 @@
-ls -l
-cd /etc
-unknown_command
-ls
-exit
