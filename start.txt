@@ -1,5 +1,10 @@
 vfs-info
-ls -a
-cd /home
+ls
+cd docs
+ls
+head readme.txt 3
+wc readme.txt
+cd ..
+tree
 foobar
 exit

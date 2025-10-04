@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log>
+  <entry time="2025-10-04 14:57:06" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 14:57:06" command="ls" args="[]" />
+  <entry time="2025-10-04 14:57:06" command="cd" args="['docs']" />
+  <entry time="2025-10-04 14:57:06" command="ls" args="[]" />
+  <entry time="2025-10-04 14:57:06" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 14:57:06" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 14:57:06" command="cd" args="['..']" />
+  <entry time="2025-10-04 14:57:06" command="tree" args="[]" />
+  <entry time="2025-10-04 14:57:06" command="foobar" args="[]" />
+  <entry time="2025-10-04 14:57:16" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 14:57:16" command="ls" args="[]" />
+  <entry time="2025-10-04 14:57:16" command="cd" args="['docs']" />
+  <entry time="2025-10-04 14:57:16" command="ls" args="[]" />
+  <entry time="2025-10-04 14:57:16" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 14:57:16" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 14:57:16" command="cd" args="['..']" />
+  <entry time="2025-10-04 14:57:16" command="tree" args="[]" />
+  <entry time="2025-10-04 14:57:16" command="foobar" args="[]" />
+  <entry time="2025-10-04 14:57:18" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 14:57:18" command="ls" args="[]" />
+  <entry time="2025-10-04 14:57:18" command="cd" args="['docs']" />
+  <entry time="2025-10-04 14:57:18" command="ls" args="[]" />
+  <entry time="2025-10-04 14:57:18" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 14:57:18" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 14:57:18" command="cd" args="['..']" />
+  <entry time="2025-10-04 14:57:18" command="tree" args="[]" />
+  <entry time="2025-10-04 14:57:18" command="foobar" args="[]" />
+  <entry time="2025-10-04 14:58:14" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 14:58:14" command="ls" args="[]" />
+  <entry time="2025-10-04 14:58:14" command="cd" args="['docs']" />
+  <entry time="2025-10-04 14:58:14" command="ls" args="[]" />
+  <entry time="2025-10-04 14:58:14" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 14:58:14" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 14:58:14" command="cd" args="['..']" />
+  <entry time="2025-10-04 14:58:14" command="tree" args="[]" />
+  <entry time="2025-10-04 14:58:14" command="foobar" args="[]" />
+  <entry time="2025-10-04 14:58:18" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 14:58:18" command="ls" args="[]" />
+  <entry time="2025-10-04 14:58:18" command="cd" args="['docs']" />
+  <entry time="2025-10-04 14:58:18" command="ls" args="[]" />
+  <entry time="2025-10-04 14:58:18" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 14:58:18" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 14:58:18" command="cd" args="['..']" />
+  <entry time="2025-10-04 14:58:18" command="tree" args="[]" />
+  <entry time="2025-10-04 14:58:18" command="foobar" args="[]" />
+  <entry time="2025-10-04 15:00:26" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 15:00:26" command="ls" args="[]" />
+  <entry time="2025-10-04 15:00:26" command="cd" args="['docs']" />
+  <entry time="2025-10-04 15:00:26" command="ls" args="[]" />
+  <entry time="2025-10-04 15:00:26" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 15:00:26" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 15:00:26" command="cd" args="['..']" />
+  <entry time="2025-10-04 15:00:26" command="tree" args="[]" />
+  <entry time="2025-10-04 15:00:26" command="foobar" args="[]" />
+  <entry time="2025-10-04 15:02:17" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 15:02:17" command="ls" args="[]" />
+  <entry time="2025-10-04 15:02:17" command="cd" args="['docs']" />
+  <entry time="2025-10-04 15:02:17" command="ls" args="[]" />
+  <entry time="2025-10-04 15:02:17" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 15:02:17" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 15:02:17" command="cd" args="['..']" />
+  <entry time="2025-10-04 15:02:17" command="tree" args="[]" />
+  <entry time="2025-10-04 15:02:17" command="foobar" args="[]" />
+  <entry time="2025-10-04 15:09:05" command="vfs-info" args="[]" />
+  <entry time="2025-10-04 15:09:05" command="ls" args="[]" />
+  <entry time="2025-10-04 15:09:05" command="cd" args="['docs']" />
+  <entry time="2025-10-04 15:09:05" command="ls" args="[]" />
+  <entry time="2025-10-04 15:09:05" command="head" args="['readme.txt', '3']" />
+  <entry time="2025-10-04 15:09:05" command="wc" args="['readme.txt']" />
+  <entry time="2025-10-04 15:09:05" command="cd" args="['..']" />
+  <entry time="2025-10-04 15:09:05" command="tree" args="[]" />
+  <entry time="2025-10-04 15:09:05" command="foobar" args="[]" />
+</log>

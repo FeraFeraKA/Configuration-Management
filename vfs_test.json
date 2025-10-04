@@ -1,0 +1,37 @@
+{
+  "name": "TestVFS",
+  "folders": [
+    {
+      "name": "docs",
+      "files": [
+        {
+          "name": "readme.txt",
+          "type": "text",
+          "content": "Hello world\nThis is VFS\nLine 3\nLine 4\nLine 5\nLine 6"
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "folders": [
+        {
+          "name": "python",
+          "files": [
+            {
+              "name": "main.py",
+              "type": "text",
+              "content": "print('Hello from VFS')\nprint('Line 2')"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "root.txt",
+      "type": "text",
+      "content": "Root file content\nAnother line"
+    }
+  ]
+}
