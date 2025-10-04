@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 pr1.py --script start.txt
+python3 shell.py --script start.txt

@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 pr1.py --log mylog.xml
+python3 shell.py --log mylog.xml
